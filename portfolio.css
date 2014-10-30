@@ -1,5 +1,87 @@
+/******************************* all pages **********************************/
+
 body {
     font-family: "Segoe UI", sans-serif;
+    padding-left: 50px;
+    background: #EBFFFF;
+}
+h1 {
+    font-family: Corbel, sans-serif;
+    font-size: 36px;
+    color: #99220B;
+}
+article h1 {
+    font-family: Corbel, sans-serif;
+    font-size: 20px;
+    color: #99220B; 
+}
+a:link {
+    text-decoration: none;
+}
+footer {
+    background: #5374A3;
+    height: 40px;
+    padding-left: 20px;
+    color: #FFFFFF;
 }
 
+/********************************* Global nav  *******************************/
+
+nav {
+    background: #5374A3;
+    height: 40px;
+    font-size: 22px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    margin: 10px;
+    vertical-align: middle;
+}
+nav a {
+    color: #FFFFFF;
+    padding: 0px 10px 0px 10px;
+}
+nav a:link {
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #273954;
+}
+
+/***************************** Portfolio page menu **************************/
+
+menu ul {
+    list-style: none;
+    padding: 0;
+}
+menu li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    margin: 10px;
+    vertical-align: middle;
+    color: red;
+}
+menu a {
+    padding: 0px 10px 0px 10px;
+    color: black;
+}
+menu a:link {
+    text-decoration: none;
+}
+menu a:hover {
+    color: green;
+}
+menu img {
+    /* display: block; */
+    padding-right: 10px; 
+}
+
+menu img:hover {
+    opacity: 0.5;
+}
 
